@@ -1,4 +1,7 @@
-﻿using System;
+﻿// EX 7A Military Unit Implementing Inheritance
+// Andrew Hejl - Feb 23 2021
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 

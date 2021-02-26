@@ -1,4 +1,7 @@
-﻿using System;
+﻿// EX 7A Military Unit Implementing Inheritance
+// Andrew Hejl - Feb 23 2021
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -142,7 +145,6 @@ namespace EX_7A____Military_Unit__Implementing_Inheritance_
                     break;
             }
             Console.WriteLine($"{this.title} {this.name}: \"Objective completed, {rTar.getTitle()}.\"");
-            rTar.ObjComplete(EX);
         }
         
 
