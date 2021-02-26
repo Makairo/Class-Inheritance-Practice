@@ -158,7 +158,7 @@ namespace EX_7A____Military_Unit__Implementing_Inheritance_
         public Enlisted(string inName, int inAge, int inMOS, char inGender, PRank inRank) : base( inName,  inAge, inGender)
         {
             this.Rank = inRank;
-            this.MOS = 0627;
+            this.MOS = inMOS;
             this.title = this.getTitle();
         }
     }
